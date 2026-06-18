@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a vulnerability privately
+    url: https://github.com/TrafficWrapper/.github/blob/main/SECURITY.md
+    about: Do not open public issues for security reports or deployment-sensitive data.

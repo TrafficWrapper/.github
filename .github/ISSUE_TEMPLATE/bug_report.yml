@@ -1,0 +1,66 @@
+name: Bug report
+description: Report a reproducible bug without exposing deployment secrets.
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report vulnerabilities or include real deployment domains, IPs, SNI values, tokens, keys, bootstrap payloads, or device credentials. Use the private security process instead.
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: orchestrator, worker, app, or cross-repo.
+      placeholder: orchestrator
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Release tag, APK version, image tag, or git commit.
+      placeholder: v0.1.9 / f3fdd8d
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Android version, Docker/Go/Java versions, with secrets redacted.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Minimal steps using placeholders instead of real infrastructure values.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Redact secrets, domains, SNI values, public IPs, tokens, keys, and bootstrap payloads.
+      render: text
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety checklist
+      options:
+        - label: "Я НЕ включил реальные домены/IP/SNI/токены/ключи моей инсталляции."
+          required: true
+        - label: This is not a vulnerability report; security issues go through Private Vulnerability Reporting.
+          required: true
