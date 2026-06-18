@@ -4,6 +4,8 @@
 
 TrafficWrapper разделён на три публичных репозитория. Начинайте с
 `orchestrator`, чтобы понять control plane, затем читайте `worker`, затем `app`.
+Для development stand на одной машине используйте
+[orchestrator/DEVELOPMENT.ru.md](https://github.com/TrafficWrapper/orchestrator/blob/master/DEVELOPMENT.ru.md).
 
 ## Локальная сборка
 

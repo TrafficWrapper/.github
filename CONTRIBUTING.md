@@ -4,6 +4,8 @@
 
 TrafficWrapper is split across three public repositories. Start with
 `orchestrator` to understand the control plane, then read `worker`, then `app`.
+For a one-machine development stand, use
+[orchestrator/DEVELOPMENT.md](https://github.com/TrafficWrapper/orchestrator/blob/master/DEVELOPMENT.md).
 
 ## Local Build
 
