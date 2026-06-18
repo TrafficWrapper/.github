@@ -1,5 +1,7 @@
 # Как внести вклад
 
+[English](CONTRIBUTING.md)
+
 TrafficWrapper разделён на три публичных репозитория. Начинайте с
 `orchestrator`, чтобы понять control plane, затем читайте `worker`, затем `app`.
 

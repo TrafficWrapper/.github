@@ -1,5 +1,7 @@
 # Security Policy
 
+[Русский](SECURITY.ru.md)
+
 Do not open a public issue for vulnerabilities or for reports containing real
 deployment domains, IP addresses, SNI values, tokens, keys, bootstrap payloads,
 device credentials, or worker state.

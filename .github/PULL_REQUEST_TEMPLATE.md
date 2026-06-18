@@ -1,3 +1,5 @@
+[Русский](PULL_REQUEST_TEMPLATE.ru.md)
+
 ## Summary
 
 ## Tests

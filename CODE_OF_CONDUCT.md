@@ -1,5 +1,7 @@
 # Code of Conduct
 
+[Русский](CODE_OF_CONDUCT.ru.md)
+
 This project follows the Contributor Covenant Code of Conduct, version 2.1, with
 the project maintainers acting as the enforcement team.
 

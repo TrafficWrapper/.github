@@ -1,5 +1,7 @@
 # TrafficWrapper
 
+[Русский](README.ru.md)
+
 TrafficWrapper is a public, self-hosted anti-censorship tunnel platform. It is
 not an Android VPN: the Android client exposes a local SOCKS front-end and uses
 user-space transports selected from signed deployment config.

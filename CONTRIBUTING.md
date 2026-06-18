@@ -1,5 +1,7 @@
 # Contributing
 
+[Русский](CONTRIBUTING.ru.md)
+
 TrafficWrapper is split across three public repositories. Start with
 `orchestrator` to understand the control plane, then read `worker`, then `app`.
 
