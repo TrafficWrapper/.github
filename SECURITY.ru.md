@@ -58,13 +58,3 @@ Good-faith research приветствуется, когда оно ограни
 владеете или имеете permission to test, избегает service disruption, persistence,
 data exfiltration сверх минимального proof, и reported privately. Не тестируйте
 third-party self-hosters или public infrastructure без explicit authorization.
-
-## OpSec operators и maintainers
-
-Донат-адреса, domains, build machines, package signing identities и другая
-побочная infrastructure могут связать отдельный deployment с реальным человеком
-или организацией. Self-hosters и maintainers должны использовать изолированные
-addresses, accounts, domains и build identities, когда им нужна separation от
-personal infrastructure. Не включайте реальные donation addresses, payment
-metadata, domains, IP addresses или account handles в public issues, если вы не
-хотите сделать их public.
