@@ -59,3 +59,13 @@ permission to test, avoids service disruption, avoids persistence, avoids data
 exfiltration beyond the minimum proof needed, and is reported privately. Do not
 test against third-party self-hosters or public infrastructure without explicit
 authorization.
+
+## Operator and Maintainer OpSec
+
+Donation addresses, domains, build machines, package signing identities, and
+other side infrastructure can link an otherwise separate deployment to a real
+person or organization. Self-hosters and maintainers should use isolated
+addresses, accounts, domains, and build identities when they need separation
+from personal infrastructure. Do not include real donation addresses, payment
+metadata, domains, IP addresses, or account handles in public issues unless you
+intend them to be public.
